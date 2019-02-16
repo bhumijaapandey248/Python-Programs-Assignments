@@ -1,6 +1,6 @@
 l=[]
 flag=0
-n=int(input("Enter the size of list elements :"))
+n=int(input("Size :"))
 for i in range(1,n+1):
     a=int(input(""))
     l.append(a)
