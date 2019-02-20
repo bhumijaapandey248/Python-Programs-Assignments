@@ -3,7 +3,7 @@
 ##       Mango
 ##Output :Ram$Loves$Loves
 
-s1=(input("Input :"))
-s2=(input(" \t"))
-s3=(input(" \t"))
+s1=input()
+s2=input()
+s3=input()
 print(f"Output :{s1}${s2}${s2}")
