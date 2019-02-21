@@ -1,27 +1,12 @@
-##l=[]
-##n=int(input())
-##for i in range(1,n+1):
-##    a=int(input(""))
-##    l.append(a)
-##print(f"Input List : {l}")
-##r=int(input(" Given Value :"))
-##for i in l:
-##    if i>r:
-##        print("yes")
-##        continue
-##    else:
-##        print("No")
-##        continue
-##l=input()
-##l=l.split()
-
-##Input :3 4 5 6 7
-##2
-##Yes
-##Input :3 4 5 6 7
-##5
-##No
-
+#1. Write a program in python to check if all the values in the list are greater than the given value (user defined). Print YES if all the values are greater than the given value and NO if not.
+#Input: List [10, 20, 30, 40, 50]
+#Given value = 20
+#Output: NO
+#Input: List [10, 20, 30, 40, 50]
+#Given value = 5
+#Output: YES
+    
+    
 str=input("Input :")
 
 n=int(input())
