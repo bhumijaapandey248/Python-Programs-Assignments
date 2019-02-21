@@ -3,9 +3,9 @@
 #Input: Ram 2 2.3445
 #Output: Ram 4.3445
 
-s,i,f=input("Input :").split()
+s,i,f=input().split()
 i=int(i)
 f=float(f)
 re=i+f
 re=float(re)
-print(f"Output : {s} {re}")
+print(f"{s} {re}")
