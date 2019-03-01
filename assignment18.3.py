@@ -5,7 +5,7 @@ def BinarySearch(n):
     a=[]
     for i in range(1,n+1):
         elements=int(input("array elements"))
-        a.append(i)
+        a.append(elements)
     x=int(input("Search"))
     start=0
     end=n-1
