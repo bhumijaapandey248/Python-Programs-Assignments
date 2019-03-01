@@ -1,26 +1,7 @@
 ##3. Write a program for Binary Search using function that takes three parameters as s (size of array), arr (sorted array), n (number to be searched) and returns the index of the element (n).
-##testcase 2
-##size 4
-##2
-##3
-##4
-##7
-##x 3
-##Searched number at 2 place !!
-##size 5
-##2
-##7
-##8
-##9
-##13
-##x 9
-##Searched number at 4 place !!
 
 def BinarySearch(n):
-##    a=[]
-##    for i in range(1,n+1):
-##        element=int(input())#array elements
-##        a.append(element)
+
     start=0
     end=n-1
     mid=0
@@ -50,6 +31,9 @@ while(t>0):
     BinarySearch(size)
     t=t-1
     
+
+
+
 
 
 
